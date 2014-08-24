@@ -1,0 +1,291 @@
+body{
+	background-color: rgb(225, 240, 255);
+	margin: 0;
+    word-wrap: break-word;
+    padding-bottom: 0;
+}
+
+header{
+	display: inline-block;
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+}
+header div.searchlogin, header div.login, header div.searchlogin div.search, header div.searchlogin div.search form, header div.searchlogin div.search form input, div.lastupdates, div.lastupdates form, div.lastupdates form input
+{
+	display: inline;
+}
+
+header img.title{
+	margin: 10px;
+}
+
+
+header div.searchlogin{
+	float: right;
+	padding: 0;
+}
+
+header div.searchlogin div.login img.img1{
+	margin: 10px 5px;
+}
+
+header div.searchlogin div.login img.img2{
+	margin: 10px 5px;
+}
+
+header div.searchlogin div.login a{
+	margin: 0;
+	padding: 0;
+	color: #ffa32c;
+	font-size: 20px;
+	display: none;
+}
+
+header div.searchlogin div.search form{
+	float: left;
+	margin: 10px 5px;
+}
+
+header div.searchlogin div.search form input{
+	border: none;
+}
+header div.searchlogin div.search form input.search{
+	border-top: 3px solid #ff7800;
+	border-bottom: 3px solid #ff7800;
+	border-left: 3px solid #ff7800;
+	border-right: 3px solid #ff9000;
+	height: 30px;
+}
+header div.searchlogin div.search form input.submit{
+	background-color: #ff9000;
+	height: 36px
+}
+
+header div.lastupdates a {
+	display: inline-block;
+	border: 1px solid black;
+	width: 94px;
+	height: 134px;
+	overflow: hidden;
+}
+
+header div.lastupdates a span.text{
+	display: inline-block;
+	width: 94px;
+	position: relative;
+	top: -22px;
+	background-color: rgba(0,0,0,0.7);
+	color: #ddd;
+	font-size: 13px
+}
+
+header div.lastupdates form input{
+	width: 64px;
+	height: 64px;
+	border: none;
+	position: relative;
+	top: -64px;
+	background-color: rgba(255,255,255,1);
+	background-repeat: no-repeat;
+}
+header div.lastupdates form input.previous{
+	background-image: url("media/1407711868_FEZ-02 - Copie.png");
+}
+header div.lastupdates form input.next{
+	background-image: url("media/1407711868_FEZ-02.png");
+}
+header div.lastupdates form input.previous:hover{
+	cursor: pointer;
+	position: relative;
+	right: 5px
+}
+header div.lastupdates form input.next:hover{
+	cursor: pointer;
+	position: relative;
+	left: 5px
+}
+
+header h1, div.animelist article aside h2, div.animelist article aside p.hoursago{
+	text-transform: uppercase;
+}
+
+nav{
+	background-color: rgb(144, 199, 255);
+	text-align: center;
+	margin-top: 5px;
+	padding: 10px 0;
+	cursor: default;
+}
+nav a{
+	display: inline-block;
+	width: auto;
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+	padding: 0 30px;
+	margin: 0 30px;
+}
+nav a:hover{
+	color: #e1f0ff;
+}
+
+div.animelist article{
+	background-color: rgb(255,255,255);
+	margin: 15px;
+	width: 75%;
+	padding: 10px;
+}
+
+div.animelist article img{
+	margin-right: 10px;
+	box-shadow: 3px 2px 10px black;
+	float: left;
+}
+
+div.animelist article aside{
+	margin-left: 210px;
+}
+div.animelist article aside h2{
+	display: inline;
+	color: #ffa32c;
+}
+div.animelist article aside p.hoursago{
+	color: #adadad;
+	margin: 0;
+}
+div.animelist article aside p.left{
+	width: 49%;
+	float: left;
+	margin: 0;
+}
+div.animelist article aside p.right{
+	width: 49%;
+	float: right;
+	text-align: right;
+	margin: 0;
+}
+div.animelist article aside p b{
+	font-size: 18px;
+}
+div.animelist article aside p.desc{
+	margin-top: 65px;
+	margin-bottom: 0;
+}
+
+p.bottomnav{
+	margin-left: 15px;
+	font-size: 17px;
+	margin-bottom: 0;
+}
+
+div.pubright{
+	background-color: black;
+	color: white;
+	float: right;
+	margin-top: 15px;
+	margin-right: 3px;
+	width: 20%;
+	padding: 0 5px;
+}
+div.pubbottom{
+	background-color: black;
+	color: white;
+	margin: 0 15px;
+}
+
+footer{
+	background-color: #90c7ff;
+	padding: 15px 25px 10px 25px;
+	margin-bottom: 0;
+ 	border-top-right-radius: 10px;
+ 	border-top-left-radius: 10px;
+ 	box-shadow: 0 15px 1px #90c7ff;
+}
+footer p.links{
+	float: right;
+	position: relative;
+	top: -12px;
+	font-size: 18px;
+	font-weight: bold;
+	color:white;
+	cursor: default;
+}
+footer p.links a{
+	color:white;
+	padding: 0 5px;
+	margin: 0 10px;
+}
+footer p.links a:hover{
+	color: #e1f0ff;
+}
+
+a{
+	color : #005793;
+	text-decoration: none;
+}
+a:hover{
+	color : #747;
+}
+
+/*Responsive POWAAAA*/
+@media screen and (max-width: 1050px){
+	.pubright{
+		display: none;
+	}
+	div.animelist article{
+		width: auto;
+	}
+	nav a{
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 750px){
+	nav a {
+		margin: 0 10px;
+	}
+	article img.img2{
+		display: none;
+	}
+	div.animelist article aside{
+		margin-left: 110px;
+	}
+}
+
+@media screen and (max-width: 560px){
+	nav a {
+		margin: 0 5px;
+	}
+	article img{
+		display: none;
+	}
+	div.animelist article aside{
+		margin-left: 0;
+	}
+	header div.searchlogin div.search form input.search{
+		width: 100px;
+	}
+	footer p.links a{
+		margin: 0;
+	}
+}
+@media screen and (max-width: 440px){
+	nav a {
+		display: block;
+	}
+	header div.lastupdates{
+		display: none;
+	}
+	header div.searchlogin div.search form{
+		display: none;
+	}
+
+	footer p.links{
+		text-align: center;
+		float: none;
+		position: normal;
+	}
+	footer img{
+		display: none;
+	}
+}
