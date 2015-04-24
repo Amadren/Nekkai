@@ -18,7 +18,6 @@
             ?>
             <div class="message">You have successfuly been loged out.<br />
             <a href="http://nekkai.net">Home</a></div>
-            <!-- <meta http-equiv="refresh" content="secondes;URL=adresse-de-redirection"> -->
             <?php
         }
         else
