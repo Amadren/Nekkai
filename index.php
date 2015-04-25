@@ -14,8 +14,8 @@
 	</div>
 	<div class="animelist">
 		<article>
-			<img src="media/img_1.png"/ class="img1">
-			<img src="media/img_1.png"/ class="img2">
+			<img src="media/img_1.png" class="img1" alt="">
+			<img src="media/img_1.png" class="img2" alt="">
 			<aside>
 				<h2>iwai ikarugo anime-ka</h2>
 				<p class="hoursago">3 hours ago</p>
@@ -33,8 +33,8 @@
 			</aside>
 		</article>
 		<article>
-			<img src="media/img_1.png"/ class="img1">
-			<img src="media/img_1.png"/ class="img2">
+			<img src="media/img_1.png" class="img1" alt="">
+			<img src="media/img_1.png" class="img2" alt="">
 			<aside>
 				<h2>iwai ikarugo anime-ka</h2>
 				<p class="hoursago">3 hours ago</p>
@@ -52,8 +52,8 @@
 			</aside>
 		</article>
 		<article>
-			<img src="media/img_1.png"/ class="img1">
-			<img src="media/img_1.png"/ class="img2">
+			<img src="media/img_1.png" class="img1" alt="">
+			<img src="media/img_1.png" class="img2" alt="">
 			<aside>
 				<h2>iwai ikarugo anime-ka</h2>
 				<p class="hoursago">3 hours ago</p>
