@@ -26,11 +26,11 @@ header div.searchlogin{
 }
 
 header div.searchlogin div.login img.img1{
-	margin: 10px 5px;
+	margin: 12.5px 5px;
 }
 
 header div.searchlogin div.login img.img2{
-	margin: 10px 5px;
+	margin: 12.5px 5px;
 }
 
 header div.searchlogin div.login a{
@@ -53,12 +53,12 @@ header div.searchlogin div.search form input.search{
 	border-top: 3px solid #ff7800;
 	border-bottom: 3px solid #ff7800;
 	border-left: 3px solid #ff7800;
-	border-right: 3px solid #ff9000;
+	border-right: 3px solid #ff7800;
 	height: 30px;
 }
 header div.searchlogin div.search form input.submit{
-	background-color: #ff9000;
-	height: 36px
+	background-color: #ff7800;
+	height: 38px
 }
 
 header div.lastupdates a {
@@ -84,7 +84,7 @@ header div.lastupdates form input{
 	height: 64px;
 	border: none;
 	position: relative;
-	top: -64px;
+	top: -60px;
 	background-color: rgba(255,255,255,1);
 	background-repeat: no-repeat;
 }
@@ -112,7 +112,6 @@ header h1, div.animelist article aside h2, div.animelist article aside p.hoursag
 nav{
 	background-color: rgb(144, 199, 255);
 	text-align: center;
-	margin-top: 5px;
 	padding: 10px 0;
 	cursor: default;
 }
