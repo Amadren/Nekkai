@@ -4,26 +4,22 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Nekkai is a project of hentai's website written in PHP.
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+All what you need is a php/mysql server.
+Upload install/nekkai.sql on your mysql server.
+And that's all.
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+First off, thanks for taking the time to contribute!
+
+Please send a GitHub Pull Request to us with a clear list of what you've done.
+Always write a clear log message for your commits.
+Thanks you in advance ^.^ 
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+Contact : lymdun@protonmail.ch
