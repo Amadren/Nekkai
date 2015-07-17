@@ -1,4 +1,4 @@
-Fondateur + developpeur PHP : Lymdun
+Chef de projet + developpeur PHP : Lymdun
 Developpeur front-end HTML/CSS : Julien008
 
 Infographiste 2D : Rynua

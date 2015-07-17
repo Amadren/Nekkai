@@ -16,7 +16,7 @@ And that's all.
 
 First off, thanks for taking the time to contribute!
 
-Please send a BitBucket Pull Request to us with a clear list of what you've done.
+Please send a GitHub Pull Request to us with a clear list of what you've done.
 Always write a clear log message for your commits.
 Thanks you in advance ^.^ 
 
